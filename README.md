@@ -1,17 +1,13 @@
 ![PROJECT_PHOTO]
 # control for GreenHouse on the Arduino
-* [Описание проекта](#chapter-0)
+* [Project Description](#chapter-0)
 * [Папки проекта](#chapter-1)
 * [Схемы подключения](#chapter-2)
 * [Материалы и компоненты](#chapter-3)
 * [Как скачать и прошить](#chapter-4)
-* [FAQ](#chapter-5)
-* [Полезная информация](#chapter-6)
-[![AlexGyver YouTube](http://alexgyver.ru/git_banner.jpg)](https://www.youtube.com/channel/UCgtAOyEQdAyjvm9ATCi_Aig?sub_confirmation=1)
-
 <a id="chapter-0"></a>
-## Описание проекта
-**GyverControl** - универсальный контроллер-таймер для теплицы, инкубатора, аквариума, квартиры, дома и других мест, где нужна автоматизация по таймеру или показателям микроклимата/другим датчикам. Ссылки на все компоненты, схемы, инструкции и другая информация находятся на странице проекта на официальном сайте: https://alexgyver.ru/gyvercontrol/.  
+## Project Description
+**GreenHouse Control** - universal controller-timer for a greenhouse, incubator, aquarium, apartment, house and other places where automation is needed by a timer or microclimate indicators / other sensors.
    
 #### Особенности:
 - 10 каналов управления. Из них (в разных комбинациях):
