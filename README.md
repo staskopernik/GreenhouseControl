@@ -1,5 +1,5 @@
-![PROJECT_PHOTO](https://github.com/AlexGyver/gyverControl/blob/master/proj_img.jpg)
-# Кконтроллер для теплицы и инкубатора на Arduino
+![PROJECT_PHOTO]
+# control for GreenHouse on the Arduino
 * [Описание проекта](#chapter-0)
 * [Папки проекта](#chapter-1)
 * [Схемы подключения](#chapter-2)
@@ -163,35 +163,9 @@ Arduino NANO 328p – искать
 * Нажать загрузить
 * Пользоваться  
 
-## Настройки в коде
+## Settings on the code
     #define ENCODER_TYPE 1      // тип энкодера (0 или 1). Если энкодер работает некорректно (пропуск шагов/2 шага), смените тип
     #define ENC_REVERSE 0       // 1 - инвертировать направление энкодера, 0 - нет
     #define DRIVER_LEVEL 1      // 1 или 0 - уровень сигнала на драйвер/реле для привода
     #define LCD_ADDR 0x3f       // адрес дисплея 0x27 или 0x3f . Смени если не работает!!
 <a id="chapter-5"></a>
-## FAQ
-### Основные вопросы
-В: Как скачать с этого грёбаного сайта?  
-О: На главной странице проекта (где ты читаешь этот текст) вверху справа зелёная кнопка **Clone or download**, вот её жми, там будет **Download ZIP**
-
-В: Скачался какой то файл .zip, куда его теперь?  
-О: Это архив. Можно открыть стандартными средствами Windows, но думаю у всех на компьютере установлен WinRAR, архив нужно правой кнопкой и извлечь.
-
-В: Я совсем новичок! Что мне делать с Ардуиной, где взять все программы?  
-О: Читай и смотри видос http://alexgyver.ru/arduino-first/
-
-В: Вылетает ошибка загрузки / компиляции!
-О: Читай тут: https://alexgyver.ru/arduino-first/#step-5
-
-В: Сколько стоит?  
-О: Ничего не продаю.
-
-### Вопросы по этому проекту
-
-<a id="chapter-6"></a>
-## Полезная информация
-* [Мой сайт](http://alexgyver.ru/)
-* [Основной YouTube канал](https://www.youtube.com/channel/UCgtAOyEQdAyjvm9ATCi_Aig?sub_confirmation=1)
-* [YouTube канал про Arduino](https://www.youtube.com/channel/UC4axiS76D784-ofoTdo5zOA?sub_confirmation=1)
-* [Мои видеоуроки по пайке](https://www.youtube.com/playlist?list=PLOT_HeyBraBuMIwfSYu7kCKXxQGsUKcqR)
-* [Мои видеоуроки по Arduino](http://alexgyver.ru/arduino_lessons/)
