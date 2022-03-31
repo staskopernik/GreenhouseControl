@@ -1,16 +1,15 @@
-![PROJECT_PHOTO]
-# control for GreenHouse on the Arduino
+# Control for GreenHouse on the Arduino
 * [Project Description](#chapter-0)
-* [Папки проекта](#chapter-1)
-* [Схемы подключения](#chapter-2)
-* [Материалы и компоненты](#chapter-3)
-* [Как скачать и прошить](#chapter-4)
+* [Project folders](#chapter-1)
+* [Wiring diagrams](#chapter-2)
+* [Materials and components](#chapter-3)
+* [How to download and flash](#chapter-4)
 <a id="chapter-0"></a>
 ## Project Description
 **GreenHouse Control** - universal controller-timer for a greenhouse, incubator, aquarium, apartment, house and other places where automation is needed by a timer or microclimate indicators / other sensors.
    
-#### Особенности:
-- 10 каналов управления. Из них (в разных комбинациях):
+#### Peculiarities:
+- 10 control channels. Of these (in various combinations):
 	- 9 каналов с логическим выходом 5V, к которым можно подключать обычное реле, твердотельное реле, силовые ключи (транзисторы, модули на основе транзисторов)
 	- 2 канала сервоприводов, подключаются обычные модельные серво больших и маленьких размеров
 	- 2 канала ШИМ с высокой частотой (1 кГц) для управления скоростью моторов, яркостью светодиодных лент, мощностью обогревателей
@@ -48,7 +47,6 @@
 
 <a id="chapter-1"></a>
 ## Папки
-**ВНИМАНИЕ! Если это твой первый опыт работы с Arduino, читай [инструкцию](#chapter-4)**
 - **libraries** - библиотеки проекта. Заменить имеющиеся версии
 - **firmware** - прошивки для Arduino
 - **schemes** - схемы подключения компонентов
@@ -72,8 +70,7 @@
 * Запустить файл прошивки (который имеет расширение .ino)
 * Настроить IDE (COM порт, модель Arduino, как в статье выше)
 * Настроить что нужно по проекту
-* Нажать загрузить
-* Пользоваться  
+* Нажать загрузить 
 
 ## Settings on the code
     #define ENCODER_TYPE 1      // тип энкодера (0 или 1). Если энкодер работает некорректно (пропуск шагов/2 шага), смените тип
